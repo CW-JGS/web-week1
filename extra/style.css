@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    padding: 0;  
+    overflow-x: hidden;
+
+}
+
+::-webkit-scrollbar {
+    width: 2.5px;
+}
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+
+}
+.textCenter {
+    text-align: center;
+}
+.protipsUL {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+}
+.protipBox {
+    width: 1420px;
+    height: 720px;  
+    padding: 0%;
+    margin: 0%;
+    
+}
+.header {
+    color: #fefefe;
+    padding: 2rem 0;
+    background-color: #213142;
+    border: 0 0 1rem 0 solid #111;
+}
+.content {
+    background-color: #213142;
+}
+.textWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.box1 {
+    background-color: #213142;
+    color:#fefefe;
+}
+.box2 {
+    background-color: #4F5D75;
+    color: #fefefe;
+}
+.box3 {
+    background-color: #15B097;
+    color: #fefefe;
+}
+.content {
+    display: flex;
+    justify-content: center;
+}
+li{
+    display: inline-block;
+    margin: 0 2rem 0 0 ;
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    color: #fefefe
+}
